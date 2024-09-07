@@ -1,0 +1,112 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:ivory;
+}
+.logo img{
+    width: 70px;
+    
+}
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    background-color: blue;
+}
+
+.one{
+    display: flex;
+    gap: 250px;
+    background-color: ivory;
+}
+.two{
+    margin: 10px;
+    border-radius: 500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+.thrre img{
+    height: 200px;
+    width: 200px;
+    margin-right: 150px;
+}
+.button{
+    background-color: azure;
+    color: blue;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    box-shadow: 10px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.para{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 70px;
+    grid-template-columns:auto auto auto ;
+}
+.item1{
+    border: 2px solid rgb(0, 255, 42);
+    height: 230px;
+    width: 230px;
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    border-radius: 8px;
+    box-shadow: 20px;
+    background-color: antiquewhite;
+}
+.item1 img{
+    justify-items: center;
+    padding: 25px;
+}
+
+.continer{
+    text-align: center;
+    display: flex;
+    background-color: white;
+    margin-left: 70px;
+}
+.submit{
+    background-color: azure;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    box-shadow: 10px;
+    margin: 10px;
+}
+.para1{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+    
